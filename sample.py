@@ -1,5 +1,9 @@
+import shutil
+import urllib.request
 from bs4 import BeautifulSoup
 import requests
+from urllib import request
+from urllib.request import urlretrieve
 
 # Load website from URL
 source = requests.get(
@@ -18,3 +22,11 @@ for subject in subject_names:
     print(subject.text, file=file)
 
 file.close()
+
+# Define  URL and output location
+url = 'https://www.adobe.com/support/products/enterprise/knowledgecenter/media/c4611_sample_explain.pdf'
+output_file = "./sample_file.pdf"
+
+# Open URL and write to defined output file
+with urllib.request.urlopen(url) as response, open(output_file, 'wb') as output:
+    shutil.copyfileobj(response, output)
