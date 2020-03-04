@@ -1,6 +1,6 @@
 # Assessment Automation
+Refer to the <b>requirements.txt</b> file for the complete package list <br>
+
 <b>Technologies used:</b>
-<ul>Visual Studo Code</ul>
-<ul>Python 3.8.2</ul>
-
-
+- <b>Visual Studio Code</b> as the text editor of choice
+- <b>Python</b> 3.8.2
