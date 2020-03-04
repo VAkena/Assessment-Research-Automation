@@ -1,6 +1,6 @@
 # Assessment Automation
 
-This assessment automation script is designed to download files from the internet and compile them into a single document. Analysis will be performed on this document for easy information extraction.
+This script is designed to download files from the internet and compile them into a single document. Analysis will be performed on this document for easy information extraction.
 
 Refer to the <b>requirements.txt</b> file for the complete package list <br>
 
