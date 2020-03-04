@@ -8,7 +8,7 @@ source = requests.get(
 # Create soup object and load parser
 soup = BeautifulSoup(source, 'lxml')
 # Create file using extension of choice
-file = open('subjects.pdf', 'w+')
+file = open('subjects.txt', 'w+')
 
 # Select all subjects in the 'Completion Requirements' table
 subject_names = soup.find_all('table')
